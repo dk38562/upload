@@ -1,0 +1,19 @@
+table{
+	color: floralwhite;
+}
+#title{
+	text-align: center;
+	column-width: var();
+}
+body{
+	background-image: url("Background.jpg");
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}

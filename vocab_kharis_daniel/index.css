@@ -1,0 +1,23 @@
+* {
+font-family:sans-serif;
+background-color:#24a2d4;
+color:#dfe6eb;
+}
+h4 {
+text-decoration: underline;
+font-style: italic;
+}
+.bold{
+margin: 0;
+}
+.definition{
+margin-top: 6px;
+}
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.footer{
+text-align: center;
+}
