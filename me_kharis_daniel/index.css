@@ -1,18 +1,23 @@
-table{
+*{
+	font-family: sans-serif;
 	color: floralwhite;
 }
-#title{
-	text-align: center;
-}
+
 body{
 	background-image: url("Background.jpg");
 	background-repeat: no-repeat;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.left{
-	float: left;
+.head{
+	width: 100%;
 }
-.right{
-	float: right;
+td{
+	margin-left: 5px;
+}
+.pic{
+	width: 480px;
+}
+.footer{
+text-align: center;
 }
