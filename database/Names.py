@@ -8,8 +8,9 @@ members = {
 }
 x = raw_input("enter phone number here ")
 #print out the list
-if type(members[x]) == tuple:
-  for i in range(len(members[x])):
-    print((members[x])[i])
-else:
+try:
+  if type(members[x]) == tuple:
+    for i in range(len(members[x])):
+      print((members[x])[i])
+except:
   print ("sorry in valid request")
