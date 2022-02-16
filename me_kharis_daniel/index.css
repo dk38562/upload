@@ -3,7 +3,6 @@ table{
 }
 #title{
 	text-align: center;
-	column-width: var();
 }
 body{
 	background-image: url("Background.jpg");
