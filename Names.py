@@ -13,4 +13,11 @@ try:
     for i in range(len(members[x])):
       print((members[x])[i])
 except:
-  print ("sorry in valid request")
+  if len(x) < 10:
+    print ("sorry that number is too short")
+  elif len(x) > 10:
+    print ("sorry that number is too long")
+  elif len(x) == 10:
+    print("sorry that number is not in our system")
+  else:
+    print ("sorry invalid request")
