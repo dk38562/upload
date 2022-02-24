@@ -1,0 +1,23 @@
+*{
+	font-family: sans-serif;
+	color: floralwhite;
+}
+
+body{
+	background-image: url("Background.jpg");
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head{
+	width: 100%;
+}
+td{
+	margin-left: 5px;
+}
+.pic{
+	width: 480px;
+}
+.footer{
+text-align: center;
+}
