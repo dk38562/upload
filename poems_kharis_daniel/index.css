@@ -1,14 +1,35 @@
 *{
-	font-family: sans-serif;
+font-family: sans-serif;
 }
 
+:root {
+--footer: DarkSalmon;
+--white: #ffffff;
+}
 
 header{
-	text-align: center;
+text-align: center;
 }
+
 footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
+text-align: center;
+padding: 3px;
+background-color: DarkSalmon;
+color: white;
+}
+
+a:link {
+color: red;
+}
+
+a:visited {
+color: green;
+}
+
+a:hover {
+color: hotpink;
+}
+
+a:active {
+color: blue;
 }
