@@ -1,10 +1,12 @@
-.back{
-background-color: #3bc6ff;
-}
 body{
+background-color: #3bc6ff;
 background-position: top left;
-background-image: url("island.jpg");
-background-repeat: space;
+background-image: url("island.png");
 background-attachment: scroll;
-background-size: 40%;
+background-size: 29%;
+}
+.text{
+padding: 30px;
+background-color: rgba(237, 237, 237, 0.7);
+border-radius: 20px;
 }

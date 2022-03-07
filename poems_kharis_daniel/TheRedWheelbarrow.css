@@ -1,8 +1,32 @@
+html{
+min-height:100%;
+color: #FAF9F6;
+}
 body{
-    background-position: top left;
-  background-image: url("Wheelbarrow.jpeg");
-background-repeat: space;
+background-color: #3062bf;
+background-position: top left;
+background-image: url("Wheelbarrow.png");
 background-repeat: repeat-y;
-  background-attachment: scroll;
-  background-size: 40%;
+background-attachment: scroll;
+background-size: 40%;
+}
+div{
+background-position: top right;
+background-image: url("Wheelbarrow.png");
+background-repeat: repeat-y;
+background-attachment: scroll;
+background-size: 40%;
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+}
+.text{
+margin-left: 43%;
+text-align: auto;
+font-family: twinkle star;
+}
+a:link, a:visited {
+color: #FAF9F6;
 }

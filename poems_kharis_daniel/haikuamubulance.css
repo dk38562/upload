@@ -1,0 +1,12 @@
+body{
+background-color: #26a360;
+background-position: top left;
+background-image: url("bowl.png");
+background-attachment: scroll;
+background-size: 25%;
+}
+.text{
+padding: 30px;
+background-color: rgba(237, 237, 237, 0.8);
+border-radius: 20px;
+}
