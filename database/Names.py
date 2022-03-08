@@ -6,18 +6,20 @@ members = {
   "0987654321": maria,
   "1293045672": martin,
 }
-x = raw_input("enter phone number here ")
-#print out the list
-try:
-  if type(members[x]) == tuple:
-    for i in range(len(members[x])):
-      print((members[x])[i])
-except:
-  if len(x) < 10:
-    print ("sorry that number is too short")
-  elif len(x) > 10:
-    print ("sorry that number is too long")
-  elif len(x) == 10:
-    print("sorry that number is not in our system")
-  else:
-    print ("sorry invalid request")
+while True:
+  x = input("enter phone number here ")
+  # print out the list
+  try:
+    if type(members[x]) == tuple:
+      for i in range(len(members[x])):
+        print((members[x])[i])
+  except:
+    if len(x) < 10:
+      print("sorry that number is too short")
+    elif len(x) > 10:
+      print("sorry that number is too long")
+    elif len(x) == 10:
+      print("sorry that number is not in our system")
+    else:
+      print("sorry invalid request")
+  print()
