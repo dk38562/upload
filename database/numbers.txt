@@ -1,3 +1,1 @@
-{"1234567890": ("Name: Alan Pan", "Member Since: 03/23/07", "Email: alanpan23@gmail.com"),
-"0987654321": ("Name: Maria Pan", "Member Since: 03/24/07", "Email: mariapan24@gmail.com"),
-"1293045672": ("Name: Martin Novak", "Member Since: 11/12/19", "Email: novakomole@gmail.com"),}
+{'4083132142': ('Name: Daniel Kharis', 'Member Since: 03/16/22', 'Email: danieltrianiel@gmail.com')}
