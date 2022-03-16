@@ -36,7 +36,9 @@ while True:
             print((members[num])[i])
         print()
     if goal.lower() == "check":
-        x = input("enter phone number here ")
+      print=()
+      x = input("enter phone number here ")
+      print=()
         try:
             for i in range(len(members[x])):
                 print((members[x])[i])
