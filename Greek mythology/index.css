@@ -1,13 +1,27 @@
+:root {
+--space-cadet: #26385bff;
+--y-in-mn-blue: #294d8eff;
+--pewter-blue: #84a7bfff;
+--khaki-web: #cfc5a7ff;
+--gold-fusion: #94895eff;
+--nickel: #767063ff;
+--spanish-gray: #929293ff;
+--slate-gray: #767d87ff;
+--jet: #373737ff;
+--header_color: #f4f4efff;
+}
 *{
 font-family: sans-serif;
+}
+body{
+margin: 0;
 }
 header{
 text-align: center;
 padding: 3px;
 background-color: var(--header_color);
 color: white;
-left: 0;
-bottom: 0;
+top: 0;
 width: 100%;
 }
 a:link, a:visited {
@@ -58,3 +72,8 @@ footer a:hover {
   background-color: #EE6352;
   color: white;
 }
+div{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+https://coolors.co/26385b-294d8e-84a7bf-cfc5a7-94895e-767063-f4f4ef-929293-767d87-373737
