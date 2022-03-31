@@ -1,20 +1,15 @@
 :root {
---space-cadet: #26385bff;
---y-in-mn-blue: #294d8eff;
---pewter-blue: #84a7bfff;
---khaki-web: #cfc5a7ff;
---gold-fusion: #94895eff;
---nickel: #767063ff;
---spanish-gray: #929293ff;
---slate-gray: #767d87ff;
---jet: #373737ff;
---header_color: #f4f4efff;
+--link-color: #1C72B0;
+--bgColor: #C4EDFD;
+--header_color: #ACECCE;
+--text_color: #1F1F1F;
 }
 *{
 font-family: sans-serif;
 }
 body{
 margin: 0;
+background-color: var(--bgColor);
 }
 header{
 text-align: center;
@@ -23,43 +18,38 @@ background-color: var(--header_color);
 color: white;
 top: 0;
 width: 100%;
+position: fixed;
 }
 a:link, a:visited {
 color: black;
 }
 header a:link, header a:visited {
-background-color: #F1F2EE;
+background-color: var(--header_color);
 color: black;
-border: 2px solid #EE6352;
+border: 2px solid var(--link-color);
 padding: 10px 20px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 }
-header a:hover {
-background-color: #EE6352;
+header a:hover{
+background-color: var(--link-color);
 color: white;
-}
-header a:active {
-background-color: var(--header_color);
-color: white;
-border: 0px
 }
 .header{
 	text-align: center;
 }
 footer{
 padding: 6px;
-color: white;
 position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
 }
 footer a:link, footer a:visited {
-  background-color: #F1F2EE;
+  background-color: #76D0AF;
   color: black;
-  border: 2px solid #EE6352;
+  border: 2px solid var(--link-color);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -69,11 +59,12 @@ footer a:link, footer a:visited {
 }
 
 footer a:hover {
-  background-color: #EE6352;
+  background-color: #76D0AF;
   color: white;
 }
-div{
-  margin-left: 8px;
-  margin-right: 8px;
+.body{
+  padding-left: 8px;
+  padding-right: 8px;
+  color: var(--text_color);
 }
 https://coolors.co/26385b-294d8e-84a7bf-cfc5a7-94895e-767063-f4f4ef-929293-767d87-373737
