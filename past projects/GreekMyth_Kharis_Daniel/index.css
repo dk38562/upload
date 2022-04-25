@@ -7,11 +7,11 @@
 }
 @font-face {
   font-family: space;
-  src: url(SpaceGrotesk.ttf);
+  src: url(Fonts/SpaceGrotesk.ttf);
 }
 @font-face {
   font-family: space;
-  src: url(SpaceGrotesk-SemiBold.ttf);
+  src: url(Fonts/SpaceGrotesk-SemiBold.ttf);
   font-weight: bold;
 }
 *{
@@ -86,4 +86,8 @@ h1{
   font-size: 39px;
   text-align: center;
 }
-https://coolors.co/26385b-294d8e-84a7bf-cfc5a7-94895e-767063-f4f4ef-929293-767d87-373737
+img{
+  width: 300px;
+  float: right;
+  margin-left: 5px;
+}
