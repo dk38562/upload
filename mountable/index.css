@@ -1,0 +1,38 @@
+*{
+	font-family: sans-serif;
+}
+header{
+text-align: center;
+padding: 5px;
+background-color: gray;
+color: white;
+top: 0;
+width: 100%;
+position: fixed;
+margin-top: 0;
+}
+a:link, a:visited {
+color: black;
+}
+header a:link, header a:visited {
+background-color: floralwhite;
+color: black;
+border: 2px solid black;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+header a:hover{
+background-color: black;
+color: white;
+}
+#headerLogo{
+	width:  125px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+#headerImage{
+
+}
