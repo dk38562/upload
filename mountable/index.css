@@ -11,10 +11,10 @@ width: 100%;
 position: fixed;
 margin-top: 0;
 }
-a:link, a:visited {
+a:link.headerLink, a:visited.headerLink {
 color: black;
 }
-header a:link, header a:visited {
+header a:link.headerLink, header a:visited.headerLink {
 background-color: floralwhite;
 color: black;
 border: 2px solid black;
@@ -23,16 +23,15 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 }
-header a:hover{
+header a:hover.headerLink{
 background-color: black;
 color: white;
 }
-#headerLogo{
+img.headerLogo{
 	width:  125px;
 	float: left;
-	padding: 0px;
 	margin: 0px;
 }
-#headerImage{
+#headerLink{
 
 }
