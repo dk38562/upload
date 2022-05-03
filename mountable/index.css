@@ -1,5 +1,11 @@
 *{
-	font-family: sans-serif;
+font-family: sans-serif;
+}
+body{
+	margin: 0;
+}
+.body{
+	margin: 8px;
 }
 header{
 text-align: center;
@@ -8,8 +14,7 @@ background-color: gray;
 color: white;
 top: 0;
 width: 100%;
-position: fixed;
-margin-top: 0;
+position: absolute;
 }
 a:link.headerLink, a:visited.headerLink {
 color: black;
@@ -22,16 +27,20 @@ padding: 10px 20px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
+font-size: 20px;
 }
 header a:hover.headerLink{
 background-color: black;
 color: white;
 }
 img.headerLogo{
-	width:  125px;
-	float: left;
-	margin: 0px;
+width:  125px;
+float: left;
 }
-#headerLink{
-
-}
+.center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
