@@ -3,6 +3,7 @@ font-family: sans-serif;
 }
 body{
 margin: 0;
+padding-top: 57.4333px;
 }
 header{
 text-align: center;
@@ -14,27 +15,18 @@ width: 100%;
 position: absolute;
 right: 0px;
 }
-a:link.headerLink, a:visited.headerLink {
-color: black;
-}
 header a:link.headerLink, header a:visited.headerLink {
-background-color: floralwhite;
-color: black;
-border: 2px solid black;
-padding: 10px 20px;
+color: floralwhite;
 text-align: center;
 text-decoration: none;
-display: inline-block;
 font-size: 16px;
-}
-header a:hover.headerLink{
-background-color: black;
-color: white;
+margin: 15px;
 }
 img.headerLogo{
-width:  100px;
+width:  50px;
 float: left;
 margin-left: 20px;
+padding: 5px;
 }
 .center {
 margin: 0;
