@@ -1,0 +1,16 @@
+body, html{
+margin: 0;
+width: 100%;
+height: 500vh;
+background-color: black;
+color: #212121;
+font-family: sans-serif;
+scroll-behavior: smooth;
+}
+#container{
+width: 100%;
+top: 0;
+overflow: hidden;
+position: fixed;
+margin: auto;
+}
