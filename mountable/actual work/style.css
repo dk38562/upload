@@ -10,13 +10,6 @@ body, html{
 #container{
 	width: 100%;
 	overflow: hidden;
-	position: fixed;
 	top: 0;
-}
-p {
-	text-align: center;
-	position: fixed;
-	width: 100%;
-	bottom: 0;
-	font-size: 11px;
+	position: sticky;
 }
