@@ -32,7 +32,16 @@ vertical-align: text-bottom;
 }
 iframe{
 	margin: 25px;
-	margin-top: 100px;
-	width: 1000px;
-	height: 563px;
+	margin-top: 75px;
+	width: 500px;
+	height: 281px;
+}
+.image{
+	width: 30%;
+}
+.image img{
+	width:100%;
+}
+.image h4{
+	text-align: center;
 }

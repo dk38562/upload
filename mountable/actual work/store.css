@@ -1,0 +1,39 @@
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+}
+.hide:hover{
+  display: block;
+}
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.container {
+  position: relative;
+  text-align: center;}
