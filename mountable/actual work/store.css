@@ -1,12 +1,11 @@
 .hide {
   display: none;
 }
-    
-.myDIV:hover + .hide {
+.container:hover .hide{
   display: block;
 }
-.hide:hover{
-  display: block;
+.container:hover img{
+  opacity: .5;
 }
 .card {
   max-width: 300px;
@@ -19,7 +18,7 @@
   transform: translate(-50%, -50%);
 }
 .price {
-  color: grey;
+  color: black;
   font-size: 22px;
 }
 
@@ -36,4 +35,5 @@
 }
 .container {
   position: relative;
-  text-align: center;}
+  text-align: center;
+  display: inline-block;}
